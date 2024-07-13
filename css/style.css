@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.t1{
+color: blueviolet;
+}
+
+h1{
+    background-color: aqua;
+    width: 70px;
+    height: 50px;
+}
+/* xs */
+@media screen and
+    (min-width:576px){
+
+    h1{
+
+        background-color: rgb(196, 177, 31);
+        width: 70px;
+        height: 50px;
+        color: rgb(251, 138, 0);
+    }
+    
+}
+
+@media screen and
+(min-width: 900px){
+    h1{
+
+        background-color: rgb(196, 31, 31);
+        width: 70px;
+        height: 50px;
+        color: rgb(76, 21, 163);
+    }
+
+
+
+}
+/* xs */
+
+
+/* s */
+@media screen and
+(min-width:768px){
+h1{
+    background-color: aqua;
+    width: 70px;
+    height: 50px;
+    color: blueviolet;
+    font-size: 505px;
+}
+
+    
+}
+
+/* s */
+
+
+/* m */
+@media screen and
+(max-width:887px){
+    h1{
+        background-color: aqua;
+        width: 70px;
+        height: 50px;
+        color: blue;
+    }
+    
+    
+}
+
+/* m */
+
+
+/* l */
+@media screen and
+(min-width:992px){
+    h1{
+        background-color: rgb(24, 185, 185);
+        width: 70px;
+        height: 50px;
+        color: rgb(255, 7, 193);
+    }
+    
+    
+}
+
+/* l */
+@media screen and
+(max-width:1000px){
+    h1{
+        background-color: rgb(26, 196, 80);
+        width: 70px;
+        height: 50px;
+        color: rgb(179, 146, 171);
+    }
+    
+    
+}
+
+
+
+
+
+
+
